@@ -3,8 +3,13 @@ package packageTest;
 public class classTest {
 
 	public static void main(String[] args) {
-		System.out.println("Ola Mundo!");
+		classTest newClass = new classTest();
+		newClass.olaMundo();
 
+	}
+
+	public void olaMundo() {
+		System.out.println("Ola mundo!");
 	}
 
 }
